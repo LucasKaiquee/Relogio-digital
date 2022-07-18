@@ -1,0 +1,38 @@
+body {
+    background-image: url("../imagens/fundo.png");
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 50px;
+}
+
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hora, #minuto, #segundo {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
