@@ -1,9 +1,12 @@
-body {
-    background-image: url("../imagens/fundo.png");
-    background-size: 100%;
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    color: white;
+}
+
+body {
+    background-image: url("../imagens/6876899.jpg");
+    background-size: 100%;
     font-size: 50px;
 }
 
@@ -11,13 +14,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#data{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    background-color: #0d0f40c4;
+    border-radius: 10px;
+    color: #F29E6D;
+    text-align: center;
+    height: 150px;
+    width: 300px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 50px;
 }
 
 article {
@@ -26,12 +31,15 @@ article {
     justify-content: center;
 }
 
+
+
 #hora, #minuto, #segundo {
     margin: 10px;
     width: 200px;
     height: 200px;
-    background-color: aqua;
-    color: black;
+    background-color: #0d0f40c4;
+    border-radius: 10px;
+    color: #F29E6D;
     display: flex;
     align-items: center;
     justify-content: center;
