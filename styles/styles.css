@@ -19,13 +19,33 @@ body {
     color: #F29E6D;
     text-align: center;
     height: 150px;
-    width: 300px;
+    width: 500px;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 50px;
     margin-bottom: 40px;
+    flex-direction: column;
 }
 
-article {
+#texto {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+#mostra {
+    font-size: 30px;
+    background-color: #0d0f40c4;
+    color: #F29E6D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 6px;
+    margin-bottom: 20px;
+}
+
+article, footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,4 +63,14 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer{
+    font-size: 17px;
+    padding: 3px;
+    background-color: #0d0f40c4;
+    color: #F29E6D;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
