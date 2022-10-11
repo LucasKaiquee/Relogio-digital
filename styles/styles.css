@@ -11,24 +11,19 @@ body {
 }
 
 #inicio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #0d0f40c4;
     border-radius: 10px;
     color: #F29E6D;
     text-align: center;
-    height: 150px;
-    width: 500px;
+    width: 300px;
+    height: 100%;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 40px;
-    flex-direction: column;
 }
 
 #texto {
-    font-size: 70px;
-    margin-bottom: 10px;
+    font-size: 40px;
 }
 
 #mostra {
@@ -45,13 +40,11 @@ body {
     margin-bottom: 20px;
 }
 
-article, footer {
+article{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
 
 #hora, #minuto, #segundo {
     margin: 10px;
@@ -67,10 +60,49 @@ article, footer {
 
 footer{
     font-size: 17px;
+    text-align: center;
+    width: 100%;
     padding: 3px;
     background-color: #0d0f40c4;
     color: #F29E6D;
     position: fixed;
-    width: 100%;
     bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    #texto {
+        font-size: 30px;
+    }
+
+    #hora, #minuto, #segundo {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: 260%;
+    }
+
+    #inicio {
+        max-width: 200px;
+    }
+
+    #texto {
+        font-size: 25px;
+    }
+
+    #mostra {
+        width: 200px;
+        font-size: 20px;
+    }
+
+    #hora, #minuto, #segundo {
+        width: 100px;
+        height: 100px;
+        margin: 2px;
+        font-size: 30px;
+    }
 }
